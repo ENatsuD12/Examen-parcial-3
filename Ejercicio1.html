@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="Ejercicio1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Filtro de mayores de edad</h1>
+        <form id="person-form">
+            <input type="text" id="nombre" placeholder="Nombre" required>
+            <input type="number" id="edad" placeholder="Edad" required>
+            <button type="submit">Agregar</button>
+        </form>
+        <button id="filtrar">Filtrar</button>
+        <div class="container-personas">
+            <h2>Lista de personas</h2>
+            <ul id="lista_personas"></ul>
+            <h2>Personas mayores de edad</h2>
+            <ul id="lista_mayores"></ul>
+        </div>
+    </div>
+
+    
+    <script src="Ejercicio1.js"></script>
+</body>
+</html>
